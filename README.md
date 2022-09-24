@@ -1,4 +1,4 @@
-# Disease-Diagnosis-and-Medic-Recommendation-System
+# Disease Diagnosis and Medic Recommendation System
 
 # OBJECTIVE
 
