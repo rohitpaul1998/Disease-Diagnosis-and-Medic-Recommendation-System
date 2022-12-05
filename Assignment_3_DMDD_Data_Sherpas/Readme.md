@@ -1,24 +1,43 @@
 # Disease Diagnosis and Medic Recommendation System
 
+
 Data Set Sources:
 
 The data for the database will be scraped from multiple websites like Wikipedia, massgov and zocdoc
-1.	https://en.wikipedia.org/wiki/List_of_infectious_diseases - Diseases.py
-2.	https://findmydoctor.mass.gov/- - DbConnection.py
-3.	https://book.zocdoc.com/get-started?utm_source=google&utm_medium=cpc_brand&utm_campaign=12793676051&utm_term=zocdoc&utm_content=122847269722&gclid=Cj0KCQiAyracBhDoARIsACGFcS4A6qzB0YXJxWA38QHgLCAzyguZ21J5V2UENmSYWg7mZ8exMcZavekaAoCcEALw_wcB - main.py
-4.	https://www.bostonmagazine.com/find-a-doctor/?s=&location=Massachusetts&cat=540 -main.py
+1.	https://en.wikipedia.org/wiki/List_of_infectious_diseases  -- used in "Diseases.py" file.
+2.	https://findmydoctor.mass.gov/-  -- used in  "DbConnection.py" file.
+3.	https://book.zocdoc.com/get-started?utm_source=google&utm_medium=cpc_brand&utm_campaign=12793676051&utm_term=zocdoc&utm_content=122847269722&gclid=Cj0KCQiAyracBhDoARIsACGFcS4A6qzB0YXJxWA38QHgLCAzyguZ21J5V2UENmSYWg7mZ8exMcZavekaAoCcEALw_wcB  -- used in "main.py" file.
+4.	https://www.bostonmagazine.com/find-a-doctor/?s=&location=Massachusetts&cat=540  -- used in "main.py" file.
+
+
 
 Python Scripts:
 
-1.	Using beautiful Soup in python we scrape the necessary data required from the sources stated above and store them in CSV File.
-2.	Later this CSV file is cleaned  to exclude duplicate, null values and special characters using cleaning scripts
-3.	The cleaned data is inserted into SQL tables which will populate the following tables
+1.	Using Beautiful Soup library (bs4) in python we scrape the necessary data required from the sources stated above and store them in CSV Files.
+2.	Later these CSV files are cleaned to exclude duplicate values, null values and special characters using cleaning scripts (displayed in Py files).
+3.	The cleaned data is inserted into SQL tables which will populate the following tables:
   -  Diseases
   -  Doctors
   -  Hospitals
   -  Disease Categories
-4.	Please refer to the SQL Scripts folder for the physical model
-5.	As part of data Auditing data collected is Visualized using seabron library showing statics of data collected -Visualization Jupyter Source File
+4.	Please refer to the SQL Scripts folder for the physical model.
+5.	As part of Data Auditing, that data that is collected is Visualized using Seaborn library showing the statistics of data collected  -- shown in "Visualization Scripts.ipynb" file.
+
+
+
+Physical Model (SQL):
+
+The physical model for our database is present in the "SQL Scripts" folder.
+
+1. The "Diseases Table.sql" file has the schema for the Diseases table consisting of all infectious diseases.
+2. The "Diseases Categories table.sql" file has the schema for the Diseases Categories for the infectious diseases.
+3. The "Doctors table.sql" file has the schema for the doctors data.
+4. The "Hospitals table.sql" file has the schema for the hospitals data.
+
+
+Previous Assignment's use case Testing:
+
+
 
 
 
