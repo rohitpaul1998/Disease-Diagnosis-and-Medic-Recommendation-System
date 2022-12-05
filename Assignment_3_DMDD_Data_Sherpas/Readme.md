@@ -1,7 +1,7 @@
 # Disease Diagnosis and Medic Recommendation System
 
 
-Data Set Sources:
+**Data Set Sources:**
 
 The data for the database will be scraped from multiple websites like Wikipedia, massgov and zocdoc
 1.	https://en.wikipedia.org/wiki/List_of_infectious_diseases  -- used in "Diseases.py" file.
@@ -11,7 +11,8 @@ The data for the database will be scraped from multiple websites like Wikipedia,
 
 
 
-Python Scripts:
+
+**Python Scripts:**
 
 1.	Using Beautiful Soup library (bs4) in python we scrape the necessary data required from the sources stated above and store them in CSV Files.
 2.	Later these CSV files are cleaned to exclude duplicate values, null values and special characters using cleaning scripts (displayed in Py files).
@@ -25,7 +26,8 @@ Python Scripts:
 
 
 
-Physical Model (SQL):
+
+**Physical Model (SQL):**
 
 The physical model for our database is present in the "SQL Scripts" folder.
 
@@ -35,7 +37,10 @@ The physical model for our database is present in the "SQL Scripts" folder.
 4. The "Hospitals table.sql" file has the schema for the hospitals data.
 
 
-Previous Assignment's use case Testing:
+
+
+**Previous Assignment's use case Testing:**
+
 
 
 
