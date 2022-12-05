@@ -13,10 +13,10 @@ Python Scripts:
 1.	Using beautiful Soup in python we scrape the necessary data required and store them in CSV File.
 2.	Later this CSV file is cleaned  from duplicate and null values using cleaning scripts
 3.	The cleaned data is inserted into SQL tables which will populate the following tables
-•	Diseases
-•	Doctors
-•	Hospitals
-•	Disease Categories
+  -  Diseases
+  -  Doctors
+  -  Hospitals
+  -  Disease Categories
 4.	Please refer to the SQL Scripts folder for the physical model
 
 
