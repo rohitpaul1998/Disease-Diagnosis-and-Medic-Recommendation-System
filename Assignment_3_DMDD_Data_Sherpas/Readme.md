@@ -45,7 +45,14 @@ The physical model for our database is present in the "SQL Scripts" folder.
 
 **Results:**
 
-1. 
+1. The resulant screenshots of data inserted into the Diseases table is present in the Disease-Diagnosis-and-Medic-Recommendation-System/Assignment_3_DMDD_Data_Sherpas/Results/Diseases.png
+
+2. The resultant screenshots of data inserted into the Disease Categories table is present in the Disease-Diagnosis-and-Medic-Recommendation-System/Assignment_3_DMDD_Data_Sherpas/Results/DiseaseCategories.png
+
+3. The resultant screenshots of data inserted into the Doctors table is present in the Disease-Diagnosis-and-Medic-Recommendation-System/Assignment_3_DMDD_Data_Sherpas/Results/Doctors.png
+
+4. The resultant screenshots of data inserted into the Hospitals table is present in the Disease-Diagnosis-and-Medic-Recommendation-System/Assignment_3_DMDD_Data_Sherpas/Results/Hospitals.png
+
 
 
 
