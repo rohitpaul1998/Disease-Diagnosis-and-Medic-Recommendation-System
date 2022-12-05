@@ -57,6 +57,7 @@ The physical model for our database is present in the "SQL Scripts" folder.
 
 
 
+
 # CONTRIBUTORS
 
 1. Rohit Panicker | NUID: 002791446
