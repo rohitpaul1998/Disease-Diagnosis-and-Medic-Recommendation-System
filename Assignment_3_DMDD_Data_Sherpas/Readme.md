@@ -55,9 +55,6 @@ The physical model for our database is present in the "SQL Scripts" folder.
 
 
 
-@settings {
-  font-size: 100;
-}
 
 
 # CONTRIBUTORS
