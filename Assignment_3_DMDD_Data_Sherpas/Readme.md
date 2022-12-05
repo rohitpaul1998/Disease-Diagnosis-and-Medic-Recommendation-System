@@ -22,7 +22,11 @@ The data for the database will be scraped from multiple websites like Wikipedia,
   -  Hospitals
   -  Disease Categories
 4.	Please refer to the SQL Scripts folder for the physical model.
-5.	As part of Data Auditing, that data that is collected is Visualized using Seaborn library showing the statistics of data collected  -- shown in "Visualization Scripts.ipynb" file.
+
+
+**Audit Data/Data Visualization:**
+
+1. As part of Data Auditing, that data that is collected is Visualized using Seaborn library showing the statistics of data collected  -- shown in "Visualization Scripts.ipynb" file.
 
 
 
