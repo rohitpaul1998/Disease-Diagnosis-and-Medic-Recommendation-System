@@ -12,7 +12,7 @@ The data for the database will be scraped from multiple websites like Wikipedia,
 
 
 
-***Python Scripts:***
+****Python Scripts:****
 
 1.	Using Beautiful Soup library (bs4) in python we scrape the necessary data required from the sources stated above and store them in CSV Files.
 2.	Later these CSV files are cleaned to exclude duplicate values, null values and special characters using cleaning scripts (displayed in Py files).
