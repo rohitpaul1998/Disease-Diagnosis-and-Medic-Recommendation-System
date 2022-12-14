@@ -2,10 +2,12 @@
 # ASSIGNMENT 4 – Normalization
 
 **Normalization**
+
 Database normalization is the process of organizing the attributes and tables of a relational database to minimize data redundancy.
 Normalization involves refactoring a table into smaller (and less redundant) tables but without losing information. The objective is to isolate data so that additions, deletions, and modifications of an attribute can be made in just one table and then propagated through the rest of the database using the defined foreign keys.
 
 **First normal form (1NF)**
+
 If a relation contains a composite or multi-valued attribute, it violates the first normal form or a relation is in first normal form if it does not contain any composite or multi-valued attribute. A relation is in first normal form if every attribute in that relation is a single valued attribute.
  
 Before Normalization Doctors table Schema:
