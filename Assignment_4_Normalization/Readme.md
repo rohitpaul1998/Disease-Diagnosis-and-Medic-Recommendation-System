@@ -1,11 +1,11 @@
 
 # ASSIGNMENT 4 – Normalization
 
-Normalization
+**Normalization**
 Database normalization is the process of organizing the attributes and tables of a relational database to minimize data redundancy.
 Normalization involves refactoring a table into smaller (and less redundant) tables but without losing information. The objective is to isolate data so that additions, deletions, and modifications of an attribute can be made in just one table and then propagated through the rest of the database using the defined foreign keys.
 
-First normal form (1NF)
+**First normal form (1NF)**
 If a relation contains a composite or multi-valued attribute, it violates the first normal form or a relation is in first normal form if it does not contain any composite or multi-valued attribute. A relation is in first normal form if every attribute in that relation is a single valued attribute.
  
 Before Normalization Doctors table Schema:
@@ -21,6 +21,7 @@ CREATE TABLE Doctors (
     FOREIGN KEY (Doctor_Id)
         REFERENCES Diseases (Disease_Id)
 );
+
 Post  Normalization Doctors table,Degree table,  Practice_Specialities Table Schema:
 
 Doctors Table
@@ -84,14 +85,14 @@ Justifications:
 1.Every table of our database has primary key with minimal set of attributes which can uniquely identify a record
 2. The values in each column of a table are atomic and there are no multivalued attributes. We have split Doctors table into Degree table and  Practice_Specialities which initially had multivalued attributes to meet the 1st NF.
  
-Second normal form (2NF)
+**Second normal form (2NF)**
 To be in second normal form, a relation must be in first normal form and relation must not contain any partial dependency. A relation is in 2NF if it has No Partial Dependency, i.e., no non-prime attribute (attributes which are not part of any candidate key) is dependent on any proper subset of any candidate key of the table.
 Justifications:
 All the above tables fulfill the requirements of 1st NF
 No partial dependencies- Since all our tables had a Candidate key with single valued attribute : It conforms to the property Rule :  “If a table candidate key is a single valued attribute then that table is in 2NF form”
 None of our tables have calculated data
  
-Third normal form (3NF)
+**Third normal form (3NF)**
 A relation is in third normal form, if its in 2NF and there is no transitive dependency.
 
 Justifications:
@@ -112,7 +113,7 @@ References Hospitals(Hospital_Id)
 );
  
  
-NORMALIZED PHYSICAL MODEL (SQL)
+**NORMALIZED PHYSICAL MODEL (SQL)**
          1. Diseases Table
 CREATE TABLE Diseases (
     Disease_Id INT ,
@@ -188,8 +189,9 @@ FOREIGN KEY (Hospital_Id)
        REFERENCES Hospitals (Hospital_Id)
 );
  
-TABLE SCREENSHOTS :
-Diseases Table
+**TABLE SCREENSHOTS :**
+*Diseases Table*
+
 
  
 Degree Table
