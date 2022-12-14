@@ -14,17 +14,29 @@ Before Normalization Doctors table Schema:
 
 
 CREATE TABLE Doctors (
+
     Doctor_Id INT NOT NULL,
+    
     License_Number TEXT,
+    
     Doctor_Name VARCHAR(150) NOT NULL,
+    
     Degree TEXT,
+    
     Practice_Specialities TEXT,
+    
     Hospital_Id BIGINT NOT NULL,
+    
     Gender VARCHAR(20) NOT NULL,
+    
     PRIMARY KEY (Hospital_Id),
+    
     FOREIGN KEY (Doctor_Id)
+    
         REFERENCES Diseases (Disease_Id)
+        
 );
+
 
 Post  Normalization Doctors table,Degree table,  Practice_Specialities Table Schema:
 
