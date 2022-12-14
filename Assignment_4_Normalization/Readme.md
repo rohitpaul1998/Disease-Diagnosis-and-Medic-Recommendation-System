@@ -11,6 +11,8 @@ Normalization involves refactoring a table into smaller (and less redundant) tab
 If a relation contains a composite or multi-valued attribute, it violates the first normal form or a relation is in first normal form if it does not contain any composite or multi-valued attribute. A relation is in first normal form if every attribute in that relation is a single valued attribute.
  
 Before Normalization Doctors table Schema:
+
+
 CREATE TABLE Doctors (
     Doctor_Id INT NOT NULL,
     License_Number TEXT,
@@ -28,21 +30,37 @@ Post  Normalization Doctors table,Degree table,  Practice_Specialities Table Sch
 
 Doctors Table
 CREATE TABLE Doctors (
+
 Doctor_Id INT NOT NULL,
+
 License_Number TEXT,
+
 Doctor_Name VARCHAR(150) NOT NULL,
+
 Hospital_Id INT NOT NULL,
+
 Gender VARCHAR(20) NOT NULL,
+
 PRIMARY KEY (Doctor_Id)
+
 );
+
+
  
 Degree Table
+
 CREATE TABLE DEGREE(
+
 Doctor_Id INT NOT NULL,
+
 Doctor_Degree TEXT,
+
 PRIMARY KEY (Doctor_Id),
+
 FOREIGN KEY (Doctor_Id) References Doctors(Doctor_Id)
+
 );
+ 
  
 Practice_Specialities Table
 CREATE TABLE Practice_Specialities (
