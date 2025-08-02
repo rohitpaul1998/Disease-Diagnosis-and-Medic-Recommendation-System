@@ -10,8 +10,5 @@ In our ever-evolving world, there are those who frequently relocate to new locat
 Our database comprises data for around 800-1000 diseases along with its criticality and symptoms. It will assist the user in matching his/her symptoms to diseases. The database will also comprise of doctors working in Massachusetts along with their area of expertise. In-depth diagnoses can be made by the user as a result of this. And it would also help the user in locating a doctor and obtaining the necessary treatment on time. Furthermore, our database will also be able to help the user in locating a doctor upon multiple parameters such as a) Nearest Doctor Available b) Consulting Cost c) Year of Experience d) Appointment Availability on a particular day.
 
 
-# CONTRIBUTORS
-
-1. Rohit Panicker | NUID: 002791446
-2. Rohit Paul | NUID: 002908933 
-3. Akshatha Patil | NUID: 002657158
+# SOLE CONTRIBUTOR
+Rohit Paul | NUID: 002908933 
